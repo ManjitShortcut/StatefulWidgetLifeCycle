@@ -1,4 +1,4 @@
-# lyfecycle
+# lifecycle widget
 
 A new Flutter project.
 
