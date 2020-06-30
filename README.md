@@ -1,16 +1,18 @@
 # lifecycle widget
-
 A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The statefulWideget have flollowing life cycel
 
-A few resources to get you started if this is your first Flutter project:
+1. First Allocate the constructor of the stateFulWdget // allocate constructor of the obejct
+2. Create State of the widget //
+3. Constructor of State //
+4. initState() // call once best place to call webservice or database
+5. buildwidget() // call every time when state and mediaquery. chnages
+6. setState()
+7. didUpdateWidget()
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
